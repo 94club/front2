@@ -1,16 +1,12 @@
 <template>
   <div class="hello">
-    <router-link :to="'aaa'">aaa</router-link><br>
-    <router-link :to="'home'">home</router-link>
+  404
   </div>
 </template>
 
 <script>
 export default {
-  name: 'index',
-  props: {
-    msg: String
-  }
+  name: 'NotFound'
 }
 </script>
 
